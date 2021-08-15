@@ -7,7 +7,7 @@
     font-family: "GraublauWeb";
     font-weight: 400;
     color: rgb(89, 73, 59);
-    font-size: 5vw;
+    font-size: 3rem;
 }
 
 .background-image {
@@ -26,7 +26,7 @@
     font-family: 'Gruppo', cursive;
     margin: 0px;
     font-weight: 400;
-    font-size: 3.5vw;
+    font-size: 2rem;
     padding: 0px;
 }
 
@@ -34,7 +34,7 @@
     font-family: 'Gruppo', cursive;
     margin: 0px;
     font-weight: 400;
-    font-size: 3vw;
+    font-size: 2rem;
     padding: 0px;
 }
 
@@ -42,7 +42,7 @@
     font-family: 'Gruppo', cursive;
     margin: 0px;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 1.5rem;
     padding: 0px;
 }
 
@@ -50,7 +50,7 @@
     font-family: "GraublauWeb";
     font-weight: 400;
     color: rgb(89, 73, 59);
-    font-size: 5vw;
+    font-size: 3rem;
 }
 
 b {
