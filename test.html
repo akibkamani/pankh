@@ -1,0 +1,539 @@
+<div class="fadein">
+    <img id="f3" src="static/img/gurmeet.png" style="object-fit: cover;">
+    <img id="f2" src="static/img/gurmeet.png" style="filter:grayscale(1)">
+    <img id="f1" src="static/img/gurmeet.png">
+</div>
+
+
+
+<div class="container">
+    <h1>PANKH</h1>
+    <h4>INITIATIVE</h4>
+    <h4>Help is Right Here.</h4>
+</div>
+
+
+<div class="thumbnail" style="margin-top:15rem;">
+    <img src="static/img/gurmeet.png" alt="">
+    <div class="caption">
+        <p>contacto@windberg.cl</p>
+        <p>+56983874071 | +56228231294</p>
+        <p>El Aguilucho 3174, Providencia, Región Metropolitana</p>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+
+    <div class="flex-container">
+
+
+        <div class="flex-item-left">
+            <img class="img" src="static/img/gurmeet.png" alt="..." style="height: 200px;width: 200px;border-radius: 50%;"></img>
+        </div>
+
+        <div class="flex-item-right">
+            <p class="People"> Gurmeet Singh</p>
+            <p class="People"> Age 38</p>
+            <p class="People"> Skill: Driver</p>
+            <p class="People"> Experience: 15 yrs</p>
+            <p class="People"> Locality: Juhu</p>
+            <p class="People"> Status: Immediately available</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <h1 class="People">
+        "If you look closely,
+    </h1>
+    <h1 class="People">
+        there are diamonds
+    </h1>
+    <h1 class="People">
+        everywhere.""
+    </h1>
+</div>
+<div class="container">
+    <p class="People">Pankh is an initiative to help</p>
+    <p class="People">our skilled but unrecognised workforce</p>
+    <p class="People">get the right placements. And help</p>
+    <p class="People">employers get the most fitting</p>
+    <p class="People">employees for their requirements,</p>
+    <p class="People">through our verified data base.</p>
+
+</div>
+<div class="container">
+    Register you requirements here
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm text-center"><a href="Music.html">I'M AN EMPLOYEE</a></div>
+        <div class="col-sm text-center"><a href="Music.html">I'M AN EMPLOYER</a></div>
+    </div>
+</div>
+
+<style>
+    * {
+        box-sizing: border-box
+    }
+    
+    body {
+        font-family: Verdana, sans-serif;
+        margin: 0
+    }
+    /* Slideshow container */
+    
+    .slideshow-container {
+        position: relative;
+        background: #f1f1f1f1;
+    }
+    /* Slides */
+    
+    .mySlides {
+        display: none;
+        padding: 80px;
+        text-align: center;
+    }
+    /* Next & previous buttons */
+    
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 16px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* Position the "next button" to the right */
+    
+    .next {
+        position: absolute;
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    /* On hover, add a black background color with a little bit see-through */
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+    }
+    /* The dot/bullet/indicator container */
+    
+    .dot-container {
+        text-align: center;
+        padding: 20px;
+        background: #ddd;
+    }
+    /* The dots/bullets/indicators */
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    /* Add a background color to the active dot/circle */
+    
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+    /* Add an italic font style to all quotes */
+    
+    q {
+        font-style: italic;
+    }
+    /* Add a blue color to the author */
+    
+    .author {
+        color: cornflowerblue;
+    }
+</style>
+
+<div class="slideshow-container">
+
+    <div class="mySlides">
+        <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+        <p class="author">- John Keats</p>
+    </div>
+
+    <div class="mySlides">
+        <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+        <p class="author">- Ernest Hemingway</p>
+    </div>
+
+    <div class="mySlides">
+        <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+        <p class="author">- Thomas A. Edison</p>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+<div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+
+<div class="container">
+    <h1>
+        ABOUT THE INITIATIVE
+    </h1>
+    <p>A very large section of our population earns their livelihood through daily odd jobs and labour intensive jobs, to keep their households and families securely going month after month. </p>
+    <p>
+        But millions of them find themselves out of work and in dire states with their families, due to lack of ways to reach out and find help.
+    </p>
+    <p>Pankh is simply a platform to Help.</p>
+    <p>
+        It is our endeavour to create a strong enough network for every employee to earn a minimum monthly wage and run their household without struggle.
+    </p>
+
+    <p>
+        At Pankh, our team verifies the registered candidates as being skilled, efficient and reliable, so employers can find easy access to the right employees.
+    </p>
+
+
+    <p>To ensure that Help is never far away.</p>
+    <p>Help is Right Here.</p>
+</div>
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+                document.getElementById("header").style.fontSize = "3rem";
+                document.getElementById("header").style.textAlign = "left";
+            } else {
+                document.getElementById("header").style.fontSize = "10rem";
+                document.getElementById("header").style.textAlign = "center";
+            }
+        }
+    </script>
+    <div id="header">Pankh</div>
+
+    <div class="fadein" style="margin-top:11rem;font-size:30px;max-width: 400px;">
+        <img id="f3" src="static/img/gurmeet.png" style="object-fit: cover;">
+        <img id="f2" src="static/img/gurmeet.png" style="filter:grayscale(1)">
+        <img id="f1" src="static/img/gurmeet.png">
+    </div>
+    <div class="container">
+        <h1>PANKH</h1>
+        <h4>INITIATIVE</h4>
+        <h4>Help is Right Here.</h4>
+    </div>
+
+
+    <div class="thumbnail" style="margin-top:15rem;">
+        <img src="static/img/gurmeet.png" alt="">
+        <div class="caption">
+            <p>contacto@windberg.cl</p>
+            <p>+56983874071 | +56228231294</p>
+            <p>El Aguilucho 3174, Providencia, Región Metropolitana</p>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+
+        <div class="flex-container">
+
+
+            <div class="flex-item-left">
+                <img class="img" src="static/img/gurmeet.png" alt="..." style="height: 200px;width: 200px;border-radius: 50%;"></img>
+            </div>
+
+            <div class="flex-item-right">
+                <p class="People"> Gurmeet Singh</p>
+                <p class="People"> Age 38</p>
+                <p class="People"> Skill: Driver</p>
+                <p class="People"> Experience: 15 yrs</p>
+                <p class="People"> Locality: Juhu</p>
+                <p class="People"> Status: Immediately available</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="People">
+            "If you look closely,
+        </h1>
+        <h1 class="People">
+            there are diamonds
+        </h1>
+        <h1 class="People">
+            everywhere.""
+        </h1>
+    </div>
+    <div class="container">
+        <p class="People">Pankh is an initiative to help</p>
+        <p class="People">our skilled but unrecognised workforce</p>
+        <p class="People">get the right placements. And help</p>
+        <p class="People">employers get the most fitting</p>
+        <p class="People">employees for their requirements,</p>
+        <p class="People">through our verified data base.</p>
+
+    </div>
+    <div class="container">
+        Register you requirements here
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm text-center"><a href="Music.html">I'M AN EMPLOYEE</a></div>
+            <div class="col-sm text-center"><a href="Music.html">I'M AN EMPLOYER</a></div>
+        </div>
+    </div>
+
+    <style>
+        * {
+            box-sizing: border-box
+        }
+        
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0
+        }
+        /* Slideshow container */
+        
+        .slideshow-container {
+            position: relative;
+            background: #f1f1f1f1;
+        }
+        /* Slides */
+        
+        .mySlides {
+            display: none;
+            padding: 80px;
+            text-align: center;
+        }
+        /* Next & previous buttons */
+        
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -30px;
+            padding: 16px;
+            color: #888;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        /* Position the "next button" to the right */
+        
+        .next {
+            position: absolute;
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        /* On hover, add a black background color with a little bit see-through */
+        
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+        /* The dot/bullet/indicator container */
+        
+        .dot-container {
+            text-align: center;
+            padding: 20px;
+            background: #ddd;
+        }
+        /* The dots/bullets/indicators */
+        
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        /* Add a background color to the active dot/circle */
+        
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+        /* Add an italic font style to all quotes */
+        
+        q {
+            font-style: italic;
+        }
+        /* Add a blue color to the author */
+        
+        .author {
+            color: cornflowerblue;
+        }
+    </style>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides">
+            <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+            <p class="author">- John Keats</p>
+        </div>
+
+        <div class="mySlides">
+            <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+            <p class="author">- Ernest Hemingway</p>
+        </div>
+
+        <div class="mySlides">
+            <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+            <p class="author">- Thomas A. Edison</p>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+    <div class="container">
+        <h1>
+            ABOUT THE INITIATIVE
+        </h1>
+        <p>A very large section of our population earns their livelihood through daily odd jobs and labour intensive jobs, to keep their households and families securely going month after month. </p>
+        <p>
+            But millions of them find themselves out of work and in dire states with their families, due to lack of ways to reach out and find help.
+        </p>
+        <p>Pankh is simply a platform to Help.</p>
+        <p>
+            It is our endeavour to create a strong enough network for every employee to earn a minimum monthly wage and run their household without struggle.
+        </p>
+
+        <p>
+            At Pankh, our team verifies the registered candidates as being skilled, efficient and reliable, so employers can find easy access to the right employees.
+        </p>
+
+
+        <p>To ensure that Help is never far away.</p>
+        <p>Help is Right Here.</p>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
