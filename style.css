@@ -81,7 +81,7 @@ b {
 
 @keyframes head {
     0% {
-        font-size: 3rem;
+        font-size: 2rem;
         opacity: 1;
     }
     50% {
@@ -89,7 +89,7 @@ b {
         opacity: 0;
     }
     100% {
-        font-size: 3rem;
+        font-size: 2rem;
         opacity: 1;
     }
 }
