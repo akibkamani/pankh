@@ -7,7 +7,7 @@
     font-family: "GraublauWeb";
     font-weight: 400;
     color: rgb(89, 73, 59);
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .background-image {
@@ -26,7 +26,7 @@
     font-family: 'Gruppo', cursive;
     margin: 0px;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0px;
 }
 
@@ -34,7 +34,7 @@
     font-family: 'Gruppo', cursive;
     margin: 0px;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0px;
 }
 
@@ -49,8 +49,8 @@
 .headings-1 {
     font-family: "GraublauWeb";
     font-weight: 400;
-    color: rgb(89, 73, 59);
-    font-size: 3rem;
+    color: #59493b;
+    font-size: 2rem;
 }
 
 b {
@@ -58,7 +58,7 @@ b {
 }
 
 .buttons {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'GraublauWeb';
 }
 
@@ -66,4 +66,35 @@ b {
     border-radius: 50px;
     background-color: #59493b;
     color: white;
+}
+
+.headtext {
+    /* font-size: 100%; */
+    animation-name: head;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#text2 {
+    animation-delay: 2s;
+}
+
+@keyframes head {
+    0% {
+        font-size: 3rem;
+        opacity: 1;
+    }
+    50% {
+        /* font-size: 0; */
+        opacity: 0;
+    }
+    100% {
+        font-size: 3rem;
+        opacity: 1;
+    }
+}
+
+.headtext {
+    font-size: 3rem;
+    color: #59493b;
 }
